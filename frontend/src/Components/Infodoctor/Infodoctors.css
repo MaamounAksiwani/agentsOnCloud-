@@ -1,0 +1,125 @@
+.viewDetails {
+    padding-top: 75px;
+}
+
+.viewDetails .Main-information-doctor {}
+
+.viewDetails .booking-details {
+    background-color: #FFF;
+    border-radius: 8px;
+    color: var(--FontColor);
+    overflow: hidden;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 18px;
+    box-shadow: 5px 8px 18px #CCC;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+
+.viewDetails .booking-details h6 {
+    color: #FFF;
+    padding: 10px;
+    background-color: var(--MainColor)
+}
+
+.viewDetails .booking-details .booking-examination {
+    color: var(--MainColor);
+}
+
+.viewDetails .booking-details .booking-option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.viewDetails .booking-icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.viewDetails .book-option {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.booking-loction {
+    text-align: left !important;
+    padding-left: 35px;
+}
+
+.loction-info span {
+    font-size: 15px;
+}
+
+.loction-info span:first-child {
+    font-weight: bold;
+}
+
+.viewDetails .title-page {
+    color: var(--MainColor);
+    cursor: pointer;
+}
+
+.aboutDoctor,
+.Main-information-doctor {
+    background-color: #FFF;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.Main-information-doctor {
+    display: flex;
+    /* justify-content: space-between;*/
+    align-items: center;
+    overflow: hidden;
+}
+
+.Main-information-doctor .text-info {
+    color: var(--FontColor) !important;
+}
+
+.Main-information-doctor .text-info p {
+    font-size: 18px;
+}
+
+.Main-information-doctor .text-info p:first-child {
+    font-size: 25px;
+}
+
+.Main-information-doctor img {
+    min-width: 187px;
+    margin-right: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    max-height: 187px;
+}
+
+.Main-about-doctor {
+    display: flex;
+    align-items: center;
+}
+
+.Main-about-doctor p {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.aboutDoctor p {
+    color: var(--FontColor);
+}

@@ -1,0 +1,28 @@
+.Main-viewappointments {
+    padding-top: 50px;
+}
+
+.title-doctors {
+    font-weight: bold;
+}
+
+.Main-viewappointments img {
+    height: 250px;
+    width: 100%;
+}
+
+.Main-viewappointments .title-info {
+    height: 170px;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+.status-request {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-request {
+    font-weight: bold;
+}

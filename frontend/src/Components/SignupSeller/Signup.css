@@ -1,0 +1,23 @@
+.seller_reg {
+    width: 600px;
+    height: auto;
+}
+
+.sellerForm {
+    padding: 10px;
+    color: var(--FontColor);
+}
+
+.seller_reg button {
+    background-color: var(--SecondColor);
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

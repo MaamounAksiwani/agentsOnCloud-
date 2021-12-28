@@ -1,0 +1,15 @@
+:root {
+    --MainColor: rgb(0, 112, 205);
+    --FontColor: #72726a;
+    --SecondColor: rgb(239, 15, 15);
+    --color: #FFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(226, 230, 234);
+}
+
+.icon {
+    color: var(--MainColor);
+}

@@ -1,0 +1,114 @@
+.MainLogin {
+    position: relative;
+}
+
+.child-Login {
+    position: fixed;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #FFF;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    /* box-shadow: inset 0 0 1.6em -0.10em #CCC; */
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    color: var(--FontColor);
+}
+
+.MainLogin .child-Login h2 {
+    background-color: var(--MainColor);
+    color: #FFF;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+}
+
+.MainLogin .formlogin {
+    padding: 25px
+}
+
+.newuser {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    color: var(--FontColor);
+}
+
+.btn-newuser {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.MainLogin .formlogin Button[type=submit] {
+    background-color: var(--SecondColor);
+    border: none;
+    width: 100%;
+}
+
+.cssbuttons-io-button {
+    background: var(--MainColor);
+    color: white;
+    font-family: inherit;
+    width: 100%;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #714da6;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+    -webkit-border-radius: 0.9em;
+    -moz-border-radius: 0.9em;
+    -ms-border-radius: 0.9em;
+    -o-border-radius: 0.9em;
+}
+
+.cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+    right: 0.3em;
+    transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}

@@ -1,0 +1,29 @@
+.pending-page {
+    padding-top: 50px;
+}
+
+.btn-pending-goback {
+    padding: 5px 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 15px;
+    background-color: var(--MainColor);
+    color: #FFF;
+    border: none;
+}
+
+.pending-icon {
+    margin-bottom: 5px;
+}
+
+.emptypending {
+    color: Red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    text-align: center;
+}

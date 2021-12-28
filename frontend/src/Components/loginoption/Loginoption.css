@@ -1,0 +1,8 @@
+.login-option {
+    height: auto;
+}
+
+.login-option .select-box {
+    margin-bottom: 25px;
+    padding: 10px;
+}
